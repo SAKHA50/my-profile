@@ -1,0 +1,62 @@
+/* Colors a78yy8nd Fonts */
+body{
+	background: rgb(200, 200, 200);
+	background-image: url("images/background.jpg");
+	color: black;
+
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+h1 {
+	color: black;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 32px;
+
+}
+
+h2 {
+	color: grey;
+	font-size: 24px
+}
+
+a {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: black
+}
+
+a: hover {
+	color: white;
+}
+#img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px;
+}
+
+.card {
+	background: white;
+	padding: 30px;
+	margin: 30px;
+	box-shadow: 0px 10px 30px;
+	border-radius: 5px;
+}
+
+@media	(max-width: 500px) {
+	.card {
+		width: 400px;
+	}
+}
+
+@media	(max-width: 760px) {
+	.card {
+		width: 600px;
+	}
+}
+
+.button {
+	list-style: none;
+	padding-left: 0px;
+	display: inline
+	padding: 10px;
+}
